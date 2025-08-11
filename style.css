@@ -1,0 +1,119 @@
+header{
+    width: 100%;
+    height: 20%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    
+}
+body{
+    margin: 0;
+}
+
+.logo>img{
+padding: 20px;
+}
+
+.logo{
+    flex: 25;
+}
+
+nav{
+    flex: 75;
+    display: flex;
+    justify-content: space-around;
+}
+nav>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+nav>a:hover{
+    color: rgb(70, 70, 70);
+    transform: scale(1.2);
+}
+
+section{
+    background-color: rgba(245, 237, 227, 0.5);
+    height: 500px;
+    margin: 30px 100px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(165, 165, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#factory{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#factory>img{
+    height: 80%;
+    border-radius: 15px;
+    flex: 1;
+}
+
+#factory>p{
+    flex: 1;
+}
+
+#factory>div{
+    flex: 1;
+}
+
+.button{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.foto{
+    width: 50%;
+    height: 70vh;
+}
+
+.qwe{
+    display: flex;
+    
+    
+}
+
+.ter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sert{
+    width: 50%;
+}
+
+.zxc{
+    display: flex;
+    justify-content: end;
+    flex: 1;
+}
+
+.qwerty{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.asd{
+    display: flex;
+}
